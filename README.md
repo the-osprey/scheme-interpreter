@@ -1,2 +1,10 @@
 # scheme-interpreter
-Fully functioning interpreter created for Scheme (List dialect)
+Fully functioning interpreter created for Scheme (List dialect). Done 
+for Computer Science Sixty-One A!
+
+Simply run: 
+python3 scheme.py
+
+Here's useful links for documentation:
+https://cs61a.org/articles/scheme-spec.html
+https://cs61a.org/articles/scheme-primitives.html
