@@ -12,7 +12,7 @@ https://cs61a.org/articles/scheme-primitives.html
 
 Of course, this is a new language so here's some cool things to run. Also check out the 'test.scm' file for more ideas of what to run (and some interesting corner cases). Run:
 
-Math Stuff:
+### Math Stuff:
   scm>(define pi 3.14159)
   
   scm>(define radius 10)
@@ -21,14 +21,16 @@ Math Stuff:
   ; expect 314.159
 
   scm> (define circumference (* 2 pi radius))
+  
   scm> circumference
   ; expect 62.8318
 
-Fun with bears:
+### Fun with bears:
   scm> (define bears (begin (display 'go )))
   ;expect gobears
 
-Functions and lambdas:
+### Functions and lambdas:
+
   scm> (define uc (mu (m) (+ m n)))
   ;expect uc
 
