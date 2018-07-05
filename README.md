@@ -14,8 +14,10 @@ Of course, this is a new language so here's some cool things to run. Also check 
 
 Math Stuff:
   scm>(define pi 3.14159)
+  
   scm>(define radius 10)
-  scm>(* pi (* radius radius))
+  
+  scm>(* pi (* radius radius)
   ; expect 314.159
 
   scm> (define circumference (* 2 pi radius))
